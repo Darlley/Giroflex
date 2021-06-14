@@ -1,6 +1,7 @@
 
 $primary: #1e1e2a;
 
+$bg-dark: #000000;
 
 body{
     padding: 0; margin: 0;
@@ -19,7 +20,6 @@ a{
     padding: .5em;
 }
 
-
 .main{
     display: flex;
     flex-direction: column;
@@ -27,22 +27,21 @@ a{
     padding-top: 2em;
 }
 .main-section{
-    width: 80%; height: 100vh;
-    padding-top: 30%;
+    width: 60%; height: 100vh;
     margin: 0em 2em 2em 2em;
     text-align: center;
 }
 
+#sobre, #contato{
+    padding-top: 30%;
+}
+
 #contato a{
-    text-align: left;
     border: 1px solid #000 !important;
 }
 #contato a:hover{
     background-color: #000;
     color: #fff !important;
-}
-.contato{
-    margin: 2em;
 }
 
 .rodape{
@@ -50,6 +49,20 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1em;
+}
+
+.gallery img{
+    margin-top: 1.5em;
+}
+
+@media (max-width: 992px) {
+    #sobre, #contato{
+        padding-top: 80%;
+    }
+    .main-section{
+        width: 80%;
+    }
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
