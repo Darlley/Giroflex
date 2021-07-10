@@ -153,10 +153,10 @@ h1{
     text-align: center;
 }
 .contato h1, h2{
-    margin-bottom: 40px;
+    margin-bottom: 2em;
 }
 .contato h2{
-    font-size: 25px;
+    font-size: 1.5em;
     font-weight: normal;
 }
 .contato div{
@@ -188,6 +188,12 @@ h1{
     box-shadow: -4px 4px 0px 1px #67E6A7;
     -webkit-box-shadow: -4px 4px 0px 1px #67E6A7;
     transition: 1s;
+}
+
+.mapa h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
 }
 
 footer {
