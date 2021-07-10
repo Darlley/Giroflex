@@ -305,4 +305,10 @@ footer p a:hover{
     .contato{
         margin: 25px;
     }
+
+    .mapa h1{
+        padding: 10px;
+        text-align: center;
+        font-size: 2em;
+    }
 }
