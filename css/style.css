@@ -43,7 +43,7 @@ h1{
 }
 
 .secao-inicial{
-    background: url("/imagens/background-image.jpg") no-repeat fixed;
+    background: url("../imagens/background-image.jpg") no-repeat fixed;
     background-size: cover;
 }
 .fundo{
