@@ -307,8 +307,7 @@ footer p a:hover{
     }
 
     .mapa h1{
-        padding: 20px 5px;
-        text-align: center;
+        margin: 20px auto;
         font-size: 2em;
     }
 }
